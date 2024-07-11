@@ -24,7 +24,7 @@ The project encompasses the following key tasks:
 - Implement a task scheduler to run the data acquisition and processing scripts at scheduled intervals.
 - Ensure the automation of data retrieval and storage to keep the database up-to-date with the latest weather information.
 
-##Project Workflow
+## Project Workflow
 1. Setup Environment:
 
 - Set up the necessary Python environment and dependencies.
