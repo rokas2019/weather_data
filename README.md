@@ -10,14 +10,15 @@ The project encompasses the following key tasks:
 - Retrieve hourly weather data from an external API for the twenty largest cities in Europe.
 - Collect both historical and forecasted weather data to ensure comprehensive coverage.
 
-2. Data Storage:
-- Store the acquired weather data in a structured SQL database.
-- Design and maintain database tables to effectively manage and query the data.
-
-3. Data Processing:
+2. Data Processing:
 
 - Process and clean the retrieved data to ensure accuracy and consistency.
 - Create views and aggregate functions within the database for efficient data analysis.
+
+3. Data Storage:
+
+- Store the acquired weather data in a structured SQL database.
+- Design and maintain database tables to effectively manage and query the data.
 
 4. Task Scheduling:
 
@@ -28,7 +29,7 @@ The project encompasses the following key tasks:
 1. Setup Environment:
 
 - Set up the necessary Python environment and dependencies.
-- Configure the SQL database and create the required tables and views.
+- Configure the SQL database connection.
 
 2. Data Retrieval:
 
