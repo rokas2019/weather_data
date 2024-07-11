@@ -117,18 +117,24 @@ Follow these steps to set up and run the project:
 ## Task Scheduler Set-up
 
 1. **Create Task:**
+
     ![Create Task](Images/Screenshot3.png)
 
 2. **Name the Task:**
+
     ![Name Task](Images/Screenshot4.png)
 
 3. **Schedule the Task:**
+
     ![Schedule Task](Images/Screenshot5.png)
 
 4. **Find your Python Path:**
+
     ![Python Path](Images/Screenshot6.png)
 
 5. **Configure the Task:**
+
     - Enter your Python path (program/script).
     - Enter the path to `main.py` (Add arguments).
+   
     ![Configure Task](Images/Screenshot7.png)
