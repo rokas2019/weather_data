@@ -138,3 +138,46 @@ Follow these steps to set up and run the project:
     - Enter the path to `main.py` (Add arguments).
    
     ![Configure Task](Images/Screenshot7.png)
+
+## Schedule projects with CRON
+ - Create virtual environment
+   ```
+   cd ~/Projects/Weather_App/rgaldi-DE2v2.2.5
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+ - Install `requirements.txt`
+   ```
+   pip install -r requirements.txt
+   ```
+ - Create a Shell Script to Run Your Python Script
+   ```
+   nano ~/Projects/Weather_App/rgaldi-DE2v2.2.5/run_weather_app.sh
+   ```
+ - Write in nano
+   ```
+   #!/bin/bash
+   cd ~/Projects/Weather_App/rgaldi-DE2v2.2.5
+   source venv/bin/activate
+   python3 main.py
+   ```
+ - Make script executable
+   ![Configure Task](Images/Screenshot8.png)
+
+ - Schedule the Cron Job
+   ```
+   crontab -e
+   ```
+ - Edit file in nano
+   ![Edit file](Images/Screenshot9.png)
+
+ - Verify the Cron Job
+   ![Verify](Images/Screenshot10.png)
+
+ - Check the Cron Service/Logs
+   ```
+   sudo service cron status
+   sudo service cron start
+   
+   grep CRON /var/log/syslog
+   ```
