@@ -1,0 +1,22 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+venv/
+
+
+**/logging_config.py
+**/db_conn_settings.py
+**/proj_var.py
+**/weather_data.log
+
+
